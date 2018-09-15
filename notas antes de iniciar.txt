@@ -1,0 +1,29 @@
+Diretório de trabalho - Faremos um diretório chamado workem C:\TMDEI e vai usar 
+este diretório para construir todos os processos e scripts de configuração. 
+Sempre que nos referimos ao diretório TMDEI, ele se referirá C:\TMDEI. 
+Pode alterar isso para o que for conveniente para si, mas observe que todas 
+as instruções e arquivos de configuração se referem a C:\TMDEI
+Prompt de comando - sempre usaremos x64 Native Tools Command Prompt for VS 2017 
+Preview como nosso prompt de comando. 
+Certifique-se de usar apenas este prompt de comando. 
+Ao contrário dos sistemas unix, o Windows tem muitos possíveis "terminais" ou "cmd prompts". 
+Estamos direcionando sistemas x64 e exigimos o prompt de comando x64. Pode-se aceder este 
+prompt do cmd no atalho do Visual Studio 2017 no menu Iniciar.
+64 bits - Você deve estar usando um sistema de 64 bits e, portanto, todos os downloads, 
+compilações e bibliotecas devem ser para, a x64 a não ser que seja especificado de outra forma.
+Os caminhos do Windows e os separadores de caminho do Python nas janelas são uma barra \.
+ No Python, esse é um caractere especial de "escape". 
+Ao especificar os caminhos do Windows numa string Python, você deve usar em \\ em vez de \ 
+ou usar strings raw do Python , por exemplo r'\'.
+Ajuda - Para discussão ou perguntas no Windows, vá para o canal #pupil Discord . 
+Se você tiver problemas, por favor, levante um problema no github !
+
+Se os downloads falharem, 
+1.recarregue esta página, 
+2. ative o JavaScript, 
+3. desative gerenciadores de download, 
+4. desative proxies, 
+5. limpe o cache, 
+6. use o Firefox, 
+7. reduza o número e a frequência de downloads. 
+Por favor, apenas baixe os arquivos manualmente, conforme necessário.
